@@ -1,7 +1,7 @@
 // components/header.tsx
 import { UserButton, ClerkLoaded, ClerkLoading } from "@clerk/nextjs";
 import { HeaderLogo } from "./headerlogo";
-import { Navigation } from "./navigation";
+import Navigation from "./navigation";
 import { Loader2 } from "lucide-react";
 import { WelcomeMsg } from "./welcome-message";
 export const Header = () => {
